@@ -1,5 +1,5 @@
 # Person-Reid-Triplet-Loss-Project
-Person re-identification is the task of associating images of the same person taken from different cameras or from the same camera in different occasions [1](https://arxiv.org/abs/2001.04193).
+Person re-identification is the task of associating images of the same person taken from different cameras or from the same camera in different occasions, the process of person re-identification is shown in figure below, taken from this [paper survey](https://arxiv.org/abs/2001.04193).
 <p align="center">
 <img src="https://github.com/farhantandia/Person-Reid-Triplet-Loss-Project/blob/main/method%20of%20general%20reid.png"><br>
 </p>
