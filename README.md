@@ -7,6 +7,7 @@ This repository contains the code of implementation person re-identification usi
 
 ## Dependencies
 - Tensorflow 2.3
+- tensorflow-addons
 - numpy
 - imbalanced-learn (incase the data is imbalanced)
 - scikit-learn 0.23.1
