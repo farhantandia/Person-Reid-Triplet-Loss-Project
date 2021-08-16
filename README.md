@@ -23,8 +23,8 @@ From the detection model, we got a swimmer bounding box and we crop each swimmer
 <img src="https://github.com/farhantandia/Person-Reid-Triplet-Loss-Project/blob/main/tsne%20results.png", style="width:200px;"><br>
 </p>
 ### Accuracy comparison
-| Metric | Validation Loss  | Validation Accuracy  |
-| :-----------------: | :-: | :------------------: |
-| CNN (Cross entropy) | 0.7284 | 80% |
-| CNN (Cross entropy) | 0.0014 | 99% |
+| Metric              | Validation Loss  | Validation Accuracy  |
+| :-----------------: | :--------------: | :------------------: |
+| CNN (Cross entropy) | 0.7284           | 80%                  |
+| CNN (Cross entropy) | 0.0014           | 99%                  |
 
