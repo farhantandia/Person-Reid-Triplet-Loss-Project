@@ -24,6 +24,7 @@ From the detection model, we got a swimmer bounding box and we crop each swimmer
 </p>
 
 ### Accuracy comparison
+
 | Metric              | Validation Loss  | Validation Accuracy  |
 | :------------------ | :--------------: | :-----------------:- |
 | CNN (Cross entropy) | 0.7284 | 80% |
