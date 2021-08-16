@@ -12,10 +12,21 @@ This repository contains the code of implementation person re-identification usi
 - scikit-learn 0.23.1
 
 ## Method
-<img src="https://github.com/farhantandia/Person-Reid-Triplet-Loss-Project/blob/main/method.png"><br>
+<p align="center">
+<img src="https://github.com/farhantandia/Person-Reid-Triplet-Loss-Project/blob/main/method.png", width="700"><br>
 </p>
 From the detection model, we got a swimmer bounding box and we crop each swimmer image based on the bounding box then use it for the input of our deep learning model. In this case, we designed a compact CNN feature extractor which consist of 6 stacks of CNN with ReLU as activation function, batch normalization and max-pooling as shown in figure 19, the total parameters of the extractor is 166,000. This CNN will act as a feature extractor to get the 128 unique vector embeddings for triplet loss to calculate and optimize the distance of each swimmer embeddings. After getting the features for each swimmer, then we used a clustering model such as support vector machine (SVM) to classify the swimmer embeddings and get the correct ID. 
 
 ## Results
 ### T-SNE visualization 
+<p align="center">
+<img src="https://github.com/farhantandia/Person-Reid-Triplet-Loss-Project/blob/main/tsne%20results.png", width="700"><br>
+</p>
+
+### Accuracy comparison
+
+| Metric | Validation Loss | Validation Accuracy |
+| :------------------ | :--------------: | :-----------------: |
+| CNN (Cross entropy) | 0.7284 | 80% |
+| CNN (Cross entropy) | 0.0014 | 99% |
 
